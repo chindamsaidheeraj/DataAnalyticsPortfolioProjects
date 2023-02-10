@@ -1,0 +1,26 @@
+--Query 1
+
+Select SUM(new_cases) as totalcases, SUM(new_deaths) as totaldeaths, (SUM(new_deaths)/SUM(new_cases) * 100 ) AS DeathPercentage from dbo.CovidDeaths 
+where continent is not null
+--group by date
+order by 1,2
+
+--Query 2
+
+Select continent, Location, MAX(total_deaths) as TotalDeathCount from dbo.CovidDeaths
+where continent is not null 
+Group by Location, continent 
+order by TotalDeathCount desc
+
+---Query 3
+
+Select Location, Population ,  MAX(total_cases) as HighestInfectionCount  , MAX((total_cases / population))*100 as PercentageofPopulationInfected  from dbo.CovidDeaths
+
+Group By Location , Population order by PercentageofPopulationInfected desc
+
+
+--Query 4
+
+Select date, Location, Population ,  MAX(total_cases) as HighestInfectionCount  , MAX((total_cases / population))*100 as PercentageofPopulationInfected  from dbo.CovidDeaths
+
+Group By Location , Population , date order by PercentageofPopulationInfected desc
