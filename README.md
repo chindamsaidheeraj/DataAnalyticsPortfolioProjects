@@ -73,7 +73,7 @@ The objective of this activity is to understand how web scrapper works to extrac
 
 # Tableau Dashboard on Covid Data Analysis.
 
-Covid exported from SQL was imported to Tableau public.
+Covid Data exported from SQL was imported to Tableau public.
 
 Brief visualisations are developed on covid data like Forecasting ranges for the cases with respect to countries, death percentage, Total cases etc.
 
