@@ -67,7 +67,7 @@ The objective of this activity is to understand how web scrapper works to extrac
 
 1.Python's beutiful soup library was utilised to extarct infromation from website.
 
-2.Custom python function was developed to raise an alert on a particular condition with respect to data.
+2.Custom python function was developed to raise an alert on a particular condition with respect to product price.
 
 3.Developed Email Trigger for a product price change in amazon.
 
