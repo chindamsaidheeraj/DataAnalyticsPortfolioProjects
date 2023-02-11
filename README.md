@@ -21,7 +21,7 @@ Languages and Tools explored
 The main Objective of the project is to explore to have basic overview on various tools, techniques, Data cleaning approaches and multiple technologies in Data Analytics. Activities performed in this project are as follows.
 
 1. Real world Covid Data Exploration using SQL.
-2. Amazon Web Scrapper using python.
+2. Amazon Web Scrapping using python.
 3. Data Profesional's Survey visulaisation using PowerBI.
 4. Tableau Dashboard on Covid Data Analysis.
 
